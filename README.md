@@ -26,7 +26,7 @@ To determine the optimal feature set, I used a trial-and-error approach, observi
 
 ## Section 2: Model Tuning and Comparison
 
-I tested several classifier models, including nearest neighbors, SVM, boosting, and random forests. The nearest neighbors algorithm was quickly dismissed due to poor results. I then tried using an SVM, but the data's non-linear nature prevented the algorithm from finding a separating hyperplane, causing the code to run indefinitely. 
+I tested several classifier models, including nearest neighbors, SVM, boosting, and random forests. The nearest neighbors algorithm was quickly dismissed due to poor results. 
 
 Next, I implemented a random forest model using sklearn. The initial results, with about 81% accuracy, were promising, prompting further parameter tuning. This led to an accuracy score of about 89% on Kaggle, a substantial improvement. However, I aimed for the top-ranking scores, which were around 97%.
 
